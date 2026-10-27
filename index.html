@@ -3,25 +3,119 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ClipPipeline</title>
+  <title>ClipPipeline – Short-form video publishing tool</title>
+  <meta name="description" content="ClipPipeline prepares short-form vertical videos from licensed campaign footage and publishes them to the creator's own TikTok, YouTube and Instagram accounts.">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>ClipPipeline</h1>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="index.html"><img src="logo.png" alt="ClipPipeline logo">ClipPipeline</a>
+      <nav>
+        <a href="#how-it-works">How it works</a>
+        <a href="#tiktok">TikTok integration</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <p>
-    ClipPipeline is a private content management and publishing tool used
-    to prepare and publish short-form video content to authorized social
-    media accounts.
-  </p>
+  <main class="wrap">
+    <div class="hero">
+      <div>
+        <h1>From campaign footage to <span class="grad">ready-to-post clips</span>.</h1>
+        <p>ClipPipeline is a desktop publishing tool for short-form video creators. It turns licensed campaign footage into vertical clips, checks every clip against the campaign's rules and publishes it to the creator's own TikTok, YouTube and Instagram accounts.</p>
+        <a class="btn" href="#how-it-works">See how it works</a>
+        <a class="btn ghost" href="privacy.html">Privacy Policy</a>
+      </div>
+      <img src="logo.png" alt="ClipPipeline app icon">
+    </div>
 
-  <p>
-    The TikTok integration allows an authorized TikTok account owner to
-    publish video content through TikTok's Content Posting API.
-  </p>
+    <section id="how-it-works">
+      <h2>How it works</h2>
+      <p class="lead">ClipPipeline runs on the creator's own computer. Every step happens locally, and the creator stays in control of what gets published.</p>
+      <div class="grid">
+        <div class="card">
+          <div class="step grad">Step 1</div>
+          <h3>Import footage</h3>
+          <p>The creator adds official footage provided by a brand or clipping campaign. Only material the campaign allows to be used is processed.</p>
+        </div>
+        <div class="card">
+          <div class="step grad">Step 2</div>
+          <h3>Create clips</h3>
+          <p>Speech is transcribed, the strongest moment is selected and the clip is cut to 9:16 with readable captions.</p>
+        </div>
+        <div class="card">
+          <div class="step grad">Step 3</div>
+          <h3>Check the rules</h3>
+          <p>Each clip is checked against the campaign requirements, such as length, required hashtags, disclosures and forbidden topics. Unclear clips go to manual review.</p>
+        </div>
+        <div class="card">
+          <div class="step grad">Step 4</div>
+          <h3>Publish</h3>
+          <p>Approved clips are published to the creator's own connected accounts with the required caption and disclosure.</p>
+        </div>
+        <div class="card">
+          <div class="step grad">Step 5</div>
+          <h3>Track</h3>
+          <p>The tool records where each clip was published, so the creator can submit the post to the campaign and avoid duplicates.</p>
+        </div>
+        <div class="card">
+          <div class="step grad">Step 6</div>
+          <h3>Stay compliant</h3>
+          <p>Clips are never posted twice to the same account, and nothing is published without passing the checks.</p>
+        </div>
+      </div>
+    </section>
 
-  <p>
-    <a href="privacy.html">Privacy Policy</a> |
-    <a href="terms.html">Terms of Service</a>
-  </p>
+    <section id="tiktok">
+      <h2>TikTok integration</h2>
+      <p class="lead">ClipPipeline uses TikTok's official Content Posting API and Login Kit. The account owner signs in with TikTok and explicitly authorizes the tool before anything can be uploaded.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Sign in with TikTok</h3>
+          <p>Authorization uses TikTok's OAuth flow. ClipPipeline never sees or stores the TikTok password.</p>
+        </div>
+        <div class="card">
+          <h3>Upload and publish</h3>
+          <p>Approved clips are uploaded as video posts with their caption. The creator's privacy and interaction settings are respected.</p>
+        </div>
+        <div class="card">
+          <h3>Revoke any time</h3>
+          <p>Access can be removed at any time in the TikTok app under Settings and privacy → Security → Apps and services.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="platforms">
+      <h2>Supported platforms</h2>
+      <p class="lead">Clips are published only to accounts the creator owns and has connected.</p>
+      <div class="platforms">
+        <span class="pill">TikTok</span>
+        <span class="pill">YouTube Shorts</span>
+        <span class="pill">Instagram Reels</span>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p class="lead">ClipPipeline is developed and operated by an independent creator. For questions, data requests or support, write to <a href="mailto:clipsnew219@gmail.com">clipsnew219@gmail.com</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>© 2026 ClipPipeline</span>
+      <nav>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="mailto:clipsnew219@gmail.com">Contact</a>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>
